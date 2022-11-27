@@ -1,0 +1,154 @@
+{
+    "name": "ControlMap",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "cf5f5791-ea52-4c36-8db3-643f0c11bff8",
+            "actions": [
+                {
+                    "name": "Place Tile",
+                    "type": "Button",
+                    "id": "7cea649c-4502-4668-ad40-8bee98a4176e",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate Tile CW",
+                    "type": "Button",
+                    "id": "908e16e1-4228-44bf-8afd-5ae874cb5b06",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate Tile CCW",
+                    "type": "Button",
+                    "id": "ece1e596-311a-48d3-91ee-7d7e2f224abb",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Mouse Position",
+                    "type": "Value",
+                    "id": "e2bea743-103c-4646-920b-5357ee8a74d8",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Mouse Delta",
+                    "type": "PassThrough",
+                    "id": "bb079c16-9eba-4f79-9813-0122905c7474",
+                    "expectedControlType": "Delta",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Drag Camera",
+                    "type": "Button",
+                    "id": "fd1fc14f-5f67-4967-95bd-9a2b2dd7a7a1",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Zoom Camera",
+                    "type": "Value",
+                    "id": "2b5799b5-1c33-41a4-83c1-b6e9128f1eb5",
+                    "expectedControlType": "Delta",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "af6c5047-2e49-4ae5-8d94-6276235d1378",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Place Tile",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "792ce61b-946f-45ba-bbe9-e0a1c6554c0a",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Tile CW",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b8aaf789-5d06-4012-b4ed-0cdb4630f8d4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Tile CCW",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "01c1e8db-98d2-4020-be3c-4b4e45f492fb",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ff49a1b1-cdf2-4a9e-aac9-36a218b90a1b",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Drag Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a7dde286-27c1-47e0-8e4c-d60586fc595f",
+                    "path": "<Mouse>/scroll",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Zoom Camera",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f494a9d2-8526-44dd-b95f-383704b511f7",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Mouse Delta",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
